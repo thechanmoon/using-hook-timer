@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://thechanmoon.github.io/using-hook-timer",
+  "homepage": "http://thechanmoon.github.io/using-hook-timer/",
   "eslintConfig": {
     "extends": [
       "react-app",
