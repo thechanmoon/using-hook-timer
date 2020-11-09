@@ -23,7 +23,9 @@ export default function App() {
     } else if (!isActive && seconds !== 0) {
       clearInterval(interval);
     }
+    console.log(document.title);
     document.title = "WildHorse47"
+    console.log(document.title);
     return () => clearInterval(interval);
   }, [isActive, seconds]);
 
