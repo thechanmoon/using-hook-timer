@@ -23,6 +23,7 @@ export default function App() {
     } else if (!isActive && seconds !== 0) {
       clearInterval(interval);
     }
+    document.title = "WildHorse47"
     return () => clearInterval(interval);
   }, [isActive, seconds]);
 
